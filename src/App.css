@@ -1,0 +1,10 @@
+.container {
+  margin: 30px;
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.158);
+}
+#list {
+  background-color: white;
+  padding: 10px;
+  margin: 30px;
+}
