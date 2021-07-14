@@ -1,9 +1,9 @@
 function PhoneBookRecord({ name, number, remove, edit }) {
   return (
     <div id="list" className="row">
-      <div className="col-4">{name}</div>
-      <div className="col-4">{number}</div>
-      <div className="col-4">
+      <div className="col-sm-4">{name}</div>
+      <div className="col-sm-4">{number}</div>
+      <div className="col-sm-4">
         <button
           onClick={() => edit({ name, number })}
           className="btn btn-outline-dark"

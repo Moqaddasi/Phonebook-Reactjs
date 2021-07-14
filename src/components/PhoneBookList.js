@@ -9,7 +9,7 @@ function PhoneBookList(props) {
     <div className="container">
       <h2>My phoneBook</h2>
       <div className="row">
-        <div className="col-11 flex-first">
+        <div className="col-sm-11 flex-first">
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
@@ -18,7 +18,7 @@ function PhoneBookList(props) {
             placeholder="Enter Name Please"
           />
         </div>
-        <div className="col-1 flex-first">
+        <div className="col-sm-1 flex-first">
           <button onClick={props.onClick} className="btn btn-primary">
             add
           </button>
