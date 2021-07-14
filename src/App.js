@@ -30,7 +30,7 @@ function App() {
           }}
           edit={(record) => {
             const newRecords = records.filter(
-              (r) => r.name != selectedRecord.name
+              (r) => r.name !== selectedRecord.name
             );
             setRecords([...newRecords, record]);
           }}
