@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function AddRecords(props) {
-  const initialValue = props.selectedRecord ?? { name: "", number: 0 };
+  const initialValue = props.selectedRecord ?? { name: "", number: "" };
   const [name, setName] = useState(initialValue.name);
   const [number, setNumber] = useState(initialValue.number);
   return (
